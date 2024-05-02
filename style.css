@@ -1,0 +1,56 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00085dda, hsla(226, 81%, 10%, 0.918), #ffffff21);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  .gradient-background-main {
+    
+    background: #8d8e8f;  
+    background: -webkit-linear-gradient(to right, #949191, #e2e4e5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fff, #c3d2d8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+
+.smb{
+    background: linear-gradient(300deg, #075723da, #000000, #f6f4f400);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+.skills{
+    display: grid;
+    grid-template-columns: 3;
+    grid-template-rows: 2;
+
+}
+.skillspic{
+    grid-area:1/2/2/3 ;
+    height: 300px;
+}
+.skillsquestion{
+    grid-area: 1/2/2/3;
+}
+.skillsR{
+    grid-area: 2/2;
+    height: 300px;
+
+}
+.skillsL{
+    grid-area: 2/2/-1/-1;
+    height: 300px;
+
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));}
+ 
